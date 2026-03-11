@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Design | Современное освещение</title>
+    <style>
+        body { font-family: 'Helvetica', sans-serif; margin: 0; background: #fff; color: #1a1a1a; }
+        header { padding: 60px 20px; text-align: center; background: #f4f4f4; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+        .item { border-bottom: 1px solid #eee; padding-bottom: 20px; }
+        .item img { width: 100%; border-radius: 8px; transition: 0.3s; }
+        .btn { display: inline-block; background: #000; color: #fff; padding: 15px 35px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        footer { margin-top: 50px; padding: 40px; background: #1a1a1a; color: #ccc; font-size: 0.8rem; text-align: center; }
+    </style>
+
+    </head>
+<body>
+
+<header class="hero">
+    <h1>Lumina Design</h1>
+    <p>Эстетика света для вашего комфорта</p>
+    <a href="https://wa.me/380XXXXXXXXX" class="btn">Консультация в WhatsApp</a>
+</header>
+
+<div class="container">
+    <div class="grid">
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=500" alt="Light 1">
+            <h3>Минимализм в деталях</h3>
+            <p>Коллекция настольных ламп 2026 года.</p>
+        </div>
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1507473884658-c70b69224952?w=500" alt="Light 2">
+            <h3>Уютный вечер</h3>
+            <p>Торшеры с мягким теплым светом.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>© 2026 Lumina Design. Украина, Киев. Все права защищены.</p>
+    <p>Политика конфиденциальности | Использование Cookies</p>
+</footer>
+
+</body>
+</html>
