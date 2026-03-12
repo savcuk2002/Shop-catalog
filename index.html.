@@ -15,16 +15,13 @@
         .btn { display: inline-block; background: #000; color: #fff; padding: 15px 35px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
         footer { margin-top: 50px; padding: 40px; background: #1a1a1a; color: #ccc; font-size: 0.8rem; text-align: center; }
     </style>
-
-    </head>
+</head>
 <body>
-
 <header class="hero">
     <h1>Lumina Design</h1>
     <p>Эстетика света для вашего комфорта</p>
-    <a href="https://wa.me/380XXXXXXXXX" class="btn">Консультация в WhatsApp</a>
+    <a href="#" class="btn">Консультация в WhatsApp</a>
 </header>
-
 <div class="container">
     <div class="grid">
         <div class="item">
@@ -39,12 +36,8 @@
         </div>
     </div>
 </div>
-
 <footer>
     <p>© 2026 Lumina Design. Украина, Киев. Все права защищены.</p>
-    <p>Политика конфиденциальности | Использование Cookies</p>
 </footer>
-
 </body>
 </html>
- 
