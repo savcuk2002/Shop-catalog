@@ -131,7 +131,30 @@
             margin-top: 20px;
             color: #b2bec3;
         }
-    </style>
+   .tg-floating {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0088cc;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.tg-floating:hover {
+    transform: scale(1.1);
+    background-color: #0077b5;
+} </style>
 </head>
 <body>
 
@@ -142,7 +165,7 @@
 <section class="hero">
     <h1>Досконалість у кожній деталі</h1>
     <p>Ми створюємо продукти для тих, хто цінує професійний підхід до краси. Ваша впевненість — наша головна місія.</p>
-    <a href="https://t.me/ТВОЙ_ТГ" class="cta-button">Отримати консультацію</a>
+    <a href="https://t.me/@GlowUpLabES class="cta-button">Отримати консультацію в Telegram</a>
 </section>
 
 <section class="features">
@@ -175,6 +198,10 @@
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
-
+<a href="https://t.me/@GlowUpLabES class="tg-floating" target="_blank">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M22 2L2 10.5L9.5 14.5M22 2L15 22L9.5 14.5M22 2L9.5 14.5M9.5 14.5V19L12 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+</a>
 </body>
 </html>
