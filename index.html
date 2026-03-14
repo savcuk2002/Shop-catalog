@@ -17,10 +17,10 @@
     fbq('init', 'ТВІЙ_ID_ПІКСЕЛЯ'); // ЗАМІНИ ТВІЙ_ID_ПІКСЕЛЯ НА РЕАЛЬНИЙ НОМЕР
     fbq('track', 'PageView');
     </script>
+    
     <style>
-       <style>
         :root {
-            --primary-color: #4b0082; /* Глибокий фіолетовий */
+            --primary-color: #4b0082;
             --accent-color: #6a0dad;
             --text-dark: #2d3436;
             --text-light: #636e72;
@@ -106,11 +106,8 @@
             text-align: center;
         }
 
-        .feature-card i {
-            font-size: 40px;
-            color: var(--accent-color);
-            margin-bottom: 20px;
-            display: block;
+        .feature-card h3 {
+            color: var(--primary-color);
         }
 
         footer {
@@ -167,7 +164,7 @@
         }
 
         .services h2 {
-            color: #4b0082;
+            color: var(--primary-color);
             margin-bottom: 30px;
             font-size: 24px;
         }
@@ -198,7 +195,7 @@
 <section class="hero">
     <h1>Досконалість у кожній деталі</h1>
     <p>Ми створюємо продукти для тих, хто цінує професійний підхід до краси. Ваша впевненість — наша головна місія.</p>
-   <a href="https://t.me/GlowUpLabES" class="tg-floating" target="_blank">
+    <a href="https://t.me/GlowUpLabES" class="cta-button" target="_blank">Отримати консультацію</a>
 </section>
 
 <section class="features">
@@ -215,6 +212,7 @@
         <p>Професійний результат, який тепер доступний кожному в домашніх умовах.</p>
     </div>
 </section>
+
 <section class="services">
     <h2>Послуги та Прайс</h2>
     <div class="service-item">
@@ -230,11 +228,12 @@
         <span class="price">від 200 грн</span>
     </div>
 </section>
+
 <footer>
   <div class="footer-links">
     <a href="policy.html">Політика конфіденційності</a>
     <a href="terms.html">Публічна оферта та повернення</a>
-</div>
+  </div>
     <div class="contact-info">
         <p>📍 Україна, м. Київ</p>
         <p>📞 +38 (063) 9737247</p>
@@ -245,10 +244,12 @@
 <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 </script>
+
 <a href="https://t.me/GlowUpLabES" class="tg-floating" target="_blank">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M22 2L2 10.5L9.5 14.5M22 2L15 22L9.5 14.5M22 2L9.5 14.5M9.5 14.5V19L12 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
 </a>
+
 </body>
 </html>
